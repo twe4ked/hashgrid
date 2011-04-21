@@ -6,7 +6,7 @@
 
 1. Include the gem in your Gemfile `gem 'hashgrid'`
 2. Run `bundle install`
-3. Add `<%= hashgrid %>` where you want the hashgrid css and javascript files to appear (usually in the head).
+3. Add `<%= hashgrid %>` where you want the hashgrid css and javascript files to appear (usually in the head)
 4. Press **G** on your website!
 
 For more info on using hashgrid checkout the [hashgrid website](http://hashgrid.com/).
