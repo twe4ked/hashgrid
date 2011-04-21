@@ -1,7 +1,7 @@
 module Hashgrid
   module Helpers
-    def hashgrid
-      render :partial => "shared/hashgrid"
+    def hashgrid(options = nil)
+      render :partial => "shared/hashgrid", :locals => {:options => options}
     end
   end
 end

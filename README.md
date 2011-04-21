@@ -11,6 +11,14 @@
 
 For more info on using hashgrid checkout the [hashgrid website](http://hashgrid.com/).
 
+### Configuration
+
+    <%= hashgrid
+      :column_width => '119px',
+      :gutter_width => '19px',
+      :first_line_width => '19px'
+    %>
+
 ## TODO
 
 * Customisable column widths

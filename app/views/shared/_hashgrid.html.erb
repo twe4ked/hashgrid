@@ -7,6 +7,23 @@
     document.getElementsByTagName('head')[0].appendChild(script);
   }
 </script>
+<% if options %>
+  <style type="text/css" media="screen">
+    #grid div.vert {
+      <% if options[:column_width] %>
+        width: <%= options[:column_width] %> !important;
+      <% end %>
+      <% if options[:gutter_width] %>
+        margin-right: <%= options[:gutter_width] %> !important;
+      <% end %>
+    }
+    #grid div.vert.first-line{
+      <% if options[:first_line_width] %>
+        margin-left: <%= options[:first_line_width] %> !important;
+      <% end %>
+    }
+  </style>
+<% end %>
 <%= stylesheet_link_tag '/stylesheets/hashgrid/hashgrid' %>
 <%= javascript_include_tag '/javascripts/hashgrid/hashgrid' %>
 <!-- /hashgrid -->
