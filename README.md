@@ -4,14 +4,15 @@
 
 ## Usage
 
-1. Include the gem in your Gemfile `gem 'hashgrid'`
-2. Run `bundle install`
+1. Include the gem in your Gemfile: `gem 'hashgrid'`
 3. Add `<%= hashgrid %>` where you want the hashgrid css and javascript files to appear (usually in the head)
 4. Press **G** on your website!
 
 For more info on using hashgrid checkout the [hashgrid website](http://hashgrid.com/).
 
-### Configuration
+## Configuration
+
+For extra control over the grid, use the following options:
 
     <%= hashgrid
       :column_width => '119px',
@@ -26,7 +27,7 @@ For more info on using hashgrid checkout the [hashgrid website](http://hashgrid.
 
 ## Thanks
 
-Thanks go to [Analog](http://analog.coop/) for creating [hashgrid](http://hashgrid.com/).
+Thanks go to [Analog](http://analog.coop/) for creating [hashgrid](http://hashgrid.com/) and to [Ennova](http://ennova.com.au) for supporting the development.
 
 ## Licence
 
