@@ -21,9 +21,8 @@ For more info on using hashgrid checkout the [hashgrid website](http://hashgrid.
 
 ## TODO
 
-* Customisable column widths
 * Customisable colour
-* Optionally hide vertical/horizontal lines
+* Optionally hide vertical or horizontal lines
 
 ## Thanks
 
