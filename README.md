@@ -1,6 +1,8 @@
 # Hashgrid
 
-"A little tool that inserts a layout grid in web pages, allows you to hold it in place, and toggle between displaying it in the foreground or background."
+"A little tool that inserts a layout grid in web pages, allows you to hold it in place, and toggle between displaying it in the foreground or background." - Analog Coop
+
+"The Grid. A digital frontier." - Kevin Flynn
 
 ## Usage
 
