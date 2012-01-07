@@ -16,7 +16,7 @@ Gem::Specification.new do |s|
   s.files        = `git ls-files`.split("\n")
   s.executables  = `git ls-files`.split("\n").map{|f| f =~ /^bin\/(.*)/ ? $1 : nil}.compact
   s.require_paths= ['lib', 'public', 'app']
-  
+
   s.add_dependency('rack', '~> 1.2.1')
   s.add_dependency('rails', '~> 3.0.0')
 end
